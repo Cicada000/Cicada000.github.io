@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-28T02:30:06.202Z</updated>
+  <updated>2021-09-11T06:43:19.269Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试二</title>
+    <link href="http://example.com/2021/09/11/%E6%B5%8B%E8%AF%95%E4%BA%8C/"/>
+    <id>http://example.com/2021/09/11/%E6%B5%8B%E8%AF%95%E4%BA%8C/</id>
+    <published>2021-09-11T06:42:24.000Z</published>
+    <updated>2021-09-11T06:43:19.269Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天将写作环境从阿里云服务器转移到了自己电脑上，测试文章正常发布。&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Google Pixel 不完全体验</title>
@@ -38,11 +60,11 @@
   </entry>
   
   <entry>
-    <title>各项测试</title>
+    <title>测试一</title>
     <link href="http://example.com/2021/08/25/%E5%90%84%E9%A1%B9%E6%B5%8B%E8%AF%95/"/>
     <id>http://example.com/2021/08/25/%E5%90%84%E9%A1%B9%E6%B5%8B%E8%AF%95/</id>
     <published>2021-08-25T09:06:00.000Z</published>
-    <updated>2021-08-25T14:39:21.621Z</updated>
+    <updated>2021-09-11T06:41:49.474Z</updated>
     
     
       
