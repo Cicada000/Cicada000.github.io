@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-19T02:12:36.864Z</updated>
+  <updated>2021-11-13T14:29:21.690Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何搜索资源</title>
+    <link href="http://example.com/2021/11/13/%E5%A6%82%E4%BD%95%E6%90%9C%E7%B4%A2%E8%B5%84%E6%BA%90/"/>
+    <id>http://example.com/2021/11/13/%E5%A6%82%E4%BD%95%E6%90%9C%E7%B4%A2%E8%B5%84%E6%BA%90/</id>
+    <published>2021-11-13T14:28:59.000Z</published>
+    <updated>2021-11-13T14:29:21.690Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;如何搜索资源&quot;&gt;&lt;a href=&quot;#如何搜索资源&quot; class=&quot;headerlink&quot; title=&quot;如何搜索资源&quot;&gt;&lt;/a&gt;如何搜索资源&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://s3.jpg.cm/2021/09/19/IEwqOe.jpg&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Cicada&#39;s Photos网站建成</title>
