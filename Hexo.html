@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<title>Cicada000's Website</title>
+
+<link rel="icon" href="logo.png">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="https://cicada000.work">Cicada000's Website</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="https://blog.cicada000.work">Blog</a>
+                    <a class="menu-item" href="https://storage.cicada000.work">Storage</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="https://siricee.github.io/hexo-theme-Chic/">Bentham's Blog</a><a id="mobile-toggle-theme">· Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">☰ Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="https://blog.cicada000.work">Blog</a>
+                    <a class="menu-item" href="https://storage.cicada000.work">Storage</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+            toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            
+    <div class="container">
+    <div class="intro">
+        <div class="avatar">
+            <a href="https://siricee.github.io/hexo-theme-Chic/archives"><img src="avatar.jpeg"></a>
+        </div>
+        <div class="nickname">Cicada000's Website</div>
+        <div class="description"><p>Stay hungry , stay foolish .</p>
+</div>
+        <div class="links">
+            
+                
+                    <a class="link-item" title="Blog" href="https://blog.cicada000.work">
+                            <i class="iconfont icon-blog"></i>
+                    </a>
+                
+                    <a class="link-item" title="Twitter" href="https://twitter.com/Cicada0001">
+                            <i class="iconfont icon-twitter"></i>
+                    </a>
+                
+                    <a class="link-item" title="RSS" href="https://blog.cicada000.work/index.xml">
+                            <i class="iconfont icon-rss"></i>
+                    </a>
+
+                    <a class="link-item" title="Github" href="https://github.com/Cicada000">
+                        <i class="iconfont icon-github"></i>
+                    </a>
+                
+                    <a class="link-item" title="Link" href="https://cicada000.work">
+                            <i class="iconfont icon-link"></i>
+                    </a>
+                
+            
+        </div>
+    </div>
+</div>
+
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>Modified by <a href="https://Github.com/Cicada000" target="_blank">Cicada000</a> &amp; Designed by <a href="https://github.com/Siricee" target="_blank">Siricee</a></span>
+    </div>
+</footer>
+
+</div>
+</body>
+</html>
